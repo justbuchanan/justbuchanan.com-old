@@ -1,0 +1,300 @@
+
+/*	Page Layout	*/
+
+body {
+	background-color: #627988;
+}
+
+hr {
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+div.PageContainer {
+	width: 830px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+}
+
+div.PageContent {
+	width: 100%;
+}
+
+div.FooterContainer {
+	width: 100%;
+	height: 60px;
+	line-height: 25px;
+	float: left;
+}
+
+p.Copyright {
+	text-align: center;
+	color: #000000;
+	font-family: "Myriad Pro", "Helvetica Neue", "Lucida Grande", Helvetica, Verdana;
+}
+
+div.ContentBubble {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #ffffff;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-style: solid;
+	border-width: 2px;
+	
+	-webkit-box-shadow:3px 4px 15px #000000;
+}
+
+h1.BubbleTitle {
+	text-align: center;
+	font-size: 58px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	color: #000000;
+	font-family: "Myriad Pro", "Helvetica Neue", "Lucida Grande", Helvetica, Verdana;
+}
+
+
+
+/*	Product Info	*/
+
+div.ProductInfoContainer {
+	
+}
+
+h1.ProductTitle {
+	float: left;
+	margin-left: 300px;;
+}
+
+p.ProductInfo {
+	font-size: 30px;
+	font-family: "Myriad Pro", "Helvetica Neue", "Lucida Grande", Helvetica, Verdana;
+	color: #000000;
+	margin: 40px;
+	display: inline-block;
+}
+
+img.AppStoreBadge {
+	float: right;
+	margin-top: 18px;
+	border: none;
+	display: inline-block;
+	width: 200px;
+}
+
+
+
+
+
+/*	NEW!!!!!!	*/
+
+div.ProductChunk {
+	margin: 20px;
+	border-style: solid;
+	border-width: 3px;
+	width: 264px;
+	
+	text-align: center;
+	
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.ProductChunk img {
+	display: inline;
+	margin: 30px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 200px;
+	height: 287px;
+	border: 2px solid #424242;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+div.ProductChunk p {
+	display: inline;
+}
+
+div.ProductChunk h1 {
+	font-size: 20px;
+	font-weight: bold;
+	display: inline;
+}
+
+div.ProductChunk ul {
+	text-align: left;
+}
+
+
+/*	Update History	*/
+
+div.UpdateHistoryContainer {
+	margin-bottom: 20px;
+	font-family: "Myriad Pro", "Helvetica Neue", "Lucida Grande", Helvetica, Verdana;
+}
+
+div.UpdateHistoryContainer ul {
+	margin-top: 0px;
+}
+
+div.UpdateHistoryContainer ul li {
+	margin-bottom: 10px;
+}
+
+div.UpdateHistoryContainer ul li p {
+	margin: 0px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+div.UpdateHistoryContainer ul li ul {
+	list-style-type: square;
+	list-style-position: outside;
+}
+
+div.UpdateHistoryContainer ul li ul li {
+	margin: 0px;
+}
+
+
+/*	Screenshots	*/
+
+h1.ScreenshotLabel {
+	
+}
+
+div.ScreenshotContainer {
+	
+}
+
+div.ScreenshotContainer img {
+	margin: 31px;
+	margin-left: 34px;
+	margin-right: 34px;
+	width: 200px;
+	height: 287px;
+	border: 2px solid #424242;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+
+/* Navigation */
+
+.navigation {
+	margin-left: auto;
+	margin-right: auto;
+	padding:0 0 0 0px;
+	list-style:none;
+	height:80px;
+	background:#000000 url(navigation/nav_background.png);
+	width: 100%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+.navigation li {
+	float:left;
+	text-align: center;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	
+	width: 25%;
+	padding: 0px;
+	margin: 0px;
+	display: inline;
+}
+
+.navigation li a {
+	display:block;
+	float:left;
+	height:80px;
+	line-height:80px;
+	color:#FFFFFF;
+	text-decoration:none;
+	font-family: arial, "Myriad Pro", verdana, sans-serif;
+	text-align:center;
+	cursor:pointer;
+	font-size:20px;
+	
+	width: 97%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	
+}
+
+.navigation li a b {
+	display: inline;
+	padding-right: 7px;
+	vertical-align: middle;
+}
+
+.navigation li.current {
+	color:#FFFFFF;
+	background:url(navigation/nav_hover.png);
+}
+
+.navigation li:hover {
+	color:#00CCFF;
+	background: url(navigation/nav_hover.png);
+}
+
+.navigation li a em {
+	display:block;
+	float:left;
+	width:80px;
+	height:80px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+/*	Individual nav items	*/
+
+#HomeNavItem {
+	-webkit-border-bottom-right-radius: 0px;
+	-webkit-border-top-right-radius: 0px;
+	-moz-border-top-right-radius: 0px;
+	-moz-border-top-right-radius: 0px;
+}
+
+#TrigSolvNavItem {
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+}
+
+#GoFigureNavItem {
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+}
+
+#SupportNavItem {
+	-webkit-border-bottom-left-radius: 0px;
+	-webkit-border-top-left-radius: 0px;
+	-moz-border-top-left-radius: 0px;
+	-moz-border-top-left-radius: 0px;
+}
+
+
+/* Icon Elements */
+
+.navigation li a em.home {
+	background-image: url(navigation/icons/logo.png);
+	padding-left: 19%;
+}
+
+.navigation li a em.trigsolv {
+	background-image: url(navigation/icons/trigsolv.png);
+	padding-left: 10%;
+}
+
+.navigation li a em.gofigure {
+	background-image: url(navigation/icons/gofigure.png);
+	padding-left: 8%;
+}
+
+
